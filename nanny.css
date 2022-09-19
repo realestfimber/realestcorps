@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand&family=Raleway:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background: rgb(227,175,179);
+    padding: 30px 80px;
+}
+.our-nannies{
+    text-align: center;
+    padding: 0.75rem;
+    margin: 2rem auto;
+}
+.our-nannies h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(32,32,32);
+    text-shadow: 1px 1px 4px white;
+}
+.our-nannies p{
+    font-family: "Oleo Script", sans-serif;
+    font-size: 24px;
+    color: rgb(42,53,99);
+}
+.nannies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+.nannies span{
+    background-color:rgb(235, 232, 209);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px crimson;
+    overflow: hidden;
+    width: 300px;
+    
+}
+.nannies span:hover{
+    background: rgb(255, 255, 255);
+}
+.nannies img{
+    width: 300px;
+    height: 300px;
+}
+span .nanny-profile{
+    padding: 20px;
+}
+.nanny-profile h4{
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nanny-profile p{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+.nanny-profile a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    background: rgb(97,75,116);
+    color: rgb(255, 255, 255);
+}
+.nanny-profile a:hover{
+    background: rgb(235, 232, 209);
+    color: rgb(0, 0, 0);
+
+}
+@media (max-width:48rem){
+    .nannies{
+        display: inline;
+    }
+}

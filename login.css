@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand&family=Raleway:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&display=swap');
+
+.login{
+    height: 25rem;
+    width: 0 auto;
+    padding-top: 1.875rem;
+}
+.login-content{
+    background-color: rgba(255, 0, 0, 0.1);
+    width: 50%;
+    margin: 3.125rem auto;
+    padding: 1.875rem;
+    border-radius: 2.5rem;
+}
+.login-form{
+    display: block;
+    width: 80%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+  }
+  .sign-in-btn{
+    padding: 0.25rem;
+    background: rgb(101,93,170);
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 1.25rem;
+    border: 0rem;
+    width: 6.25rem;
+  }
+  .sign-in-btn:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+  }

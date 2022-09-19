@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand&family=Raleway:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.request{
+    background: rgb(56,226,213);
+    padding: 1.5rem 3.125rem;
+    height: auto;
+}
+#request-ctn{
+    background:rgba(255, 255, 255, 0.5);
+    padding: 2.1875rem;
+    width: 80%;
+    margin: 3.125rem auto;
+    border-radius: 1.875rem;
+}
+#request-ctn input::placeholder{
+    font-family: "Oleo Script", sans-serif;
+}
+#request-ctn label{
+    font-weight: bold;
+}

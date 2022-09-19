@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realest Corp</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+  <header>
+    <section>
+      <div class="search-bar" id="search-bar">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success btn-search" type="submit">Search</button>
+        </form>
+        <div id="nav-btn">
+          <a href="login.html" target="blank">Login</a>
+          <a href="register.html" target="_blank">Register</a>
+        </div>
+      </div>
+    </section>
+    <section class="header-section">
+      <div class="page-logo">
+        <a href="index.html"><img src="images/logo.svg" alt=""></a>
+      </div>
+      <nav id="nav">
+        <ul id="navbar-content">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <svg style="width: 18px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+              <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" /></svg>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              <svg style="width: 18px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path d="M15.75 8.25a.75.75 0 01.75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 11-.992-1.124A2.243 2.243 0 0015 9a.75.75 0 01.75-.75z" />
+              <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM4.575 15.6a8.25 8.25 0 009.348 4.425 1.966 1.966 0 00-1.84-1.275.983.983 0 01-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 012.328-.377L16.5 15h.628a2.25 2.25 0 011.983 1.186 8.25 8.25 0 00-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.575 15.6z" clip-rule="evenodd" />
+              </svg>About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              <svg style="width:18px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+              </svg>Contact Us</a>
+          </li>
+                          <li class="nav-item"><a class="nav-link" href="#services"><svg style="width: 18px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clip-rule="evenodd" />
+                            <path d="M10.076 8.64l-2.201-2.2V4.874a.75.75 0 00-.364-.643l-3.75-2.25a.75.75 0 00-.916.113l-.75.75a.75.75 0 00-.113.916l2.25 3.75a.75.75 0 00.643.364h1.564l2.062 2.062 1.575-1.297z" />
+                            <path fill-rule="evenodd" d="M12.556 17.329l4.183 4.182a3.375 3.375 0 004.773-4.773l-3.306-3.305a6.803 6.803 0 01-1.53.043c-.394-.034-.682-.006-.867.042a.589.589 0 00-.167.063l-3.086 3.748zm3.414-1.36a.75.75 0 011.06 0l1.875 1.876a.75.75 0 11-1.06 1.06L15.97 17.03a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                          </svg>Services</a></li>
+                          <li class="nav-item"><a class="nav-link" href="request.html"><svg style="width: 18px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z" />
+                          </svg>Book a Service</a></li>
+                          <li class="nav-item"><a class="nav-link" href="register.html"><svg style="width: 25px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M543.9 251.4c0-1.1 .1-2.2 .1-3.4c0-48.6-39.4-88-88-88l-40 0H320l-16 0 0 0v16 72c0 22.1-17.9 40-40 40s-40-17.9-40-40V128h.4c4-36 34.5-64 71.6-64H408c2.8 0 5.6 .2 8.3 .5l40.1-40.1c21.9-21.9 57.3-21.9 79.2 0l78.1 78.1c21.9 21.9 21.9 57.3 0 79.2l-69.7 69.7zM192 128V248c0 39.8 32.2 72 72 72s72-32.2 72-72V192h80l40 0c30.9 0 56 25.1 56 56c0 27.2-19.4 49.9-45.2 55c8.2 8.6 13.2 20.2 13.2 33c0 26.5-21.5 48-48 48h-2.7c1.8 5 2.7 10.4 2.7 16c0 26.5-21.5 48-48 48H224c-.9 0-1.8 0-2.7-.1l-37.7 37.7c-21.9 21.9-57.3 21.9-79.2 0L26.3 407.6c-21.9-21.9-21.9-57.3 0-79.2L96 258.7V224c0-53 43-96 96-96z"/></svg></svg>Work with Us</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="second-toggler">
+          <nav class="navbar navbar-dark nav-color fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img style="width: 50px;" src="images/logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button><div id="toggler-nav-btn">
+                    <a href="login.html">Login</a>
+                    <a href="signup.html">Register</a>
+                  </div>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item navlinks">
+                      <a class="nav-link active" href="index.html">Home</a>
+                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="#contact">Contact us</a>
+                      <a class="nav-link" href="#services">Services</a>
+                      <a class="nav-link" href="request.html">Book a Service</a>
+                      <a class="nav-link" href="register.html">Work with Us</a>
+                    </li>
+                  </ul>
+                  </ul>
+                  </ul>
+        </section>
+    </header>
+  <main>
+        <section class="hero">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/nanny.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="h5">
+                        <h5 id="first-slide-caption">DEPENDABLE PROFESSIONAL NANNY</h5>
+                        <p id="first-slide-p">Are you in a tight spot and need help with caring for your children as urgent as possible? We've got you covered. </p>
+                      <div class="slider-btn">
+                        <a href="nanny.html">Find a Nanny</a>
+                        <a href="register.html">Work with Us</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Cleaning.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="h4"><h5 id="Second-slide-caption">Call Us! We’re the Dust Busters.</h5>
+                      <p id="second-slide-p">Do you need your Home, Office, Schools and Church to look spotless clean? We do the best Cleaning.</p>
+                      <div class="slider-btn">
+                        <a href="#contact">Call Us</a>
+                        <a href="register.html">Work with Us</a></div></div>
+                      </div>
+                    </div>
+                  </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section id="services">
+            <h2 id="services-heading">Our Services</h2>
+      <div class="row">
+        <div class="col">
+          <li>
+            <div class="services-content">
+              <h2>Fumigation/Pest Control</h2>
+              <p>Realest Corp are the best at Odorless and Eco-friendly fumigation. If you are not in charge of your properties due to negligence of pests and insects control. Bed bugs, cockroaches and rodents can make you loose your sleep and eventually forfeit your belongings to these intruders. We are available to assist you in keeping them off your premises. We understand their languages and they listen to us.</p>
+            <div>
+              <div class="learn-more">
+                <a href="">Learn More<svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                  <path fill-rule="evenodd" d="M4.72 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 010-1.06zm6 0a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                </svg>
+                </a>
+              </div>
+          </li>
+        </div>
+        <div class="col">
+          <li id="domestic-cleaning">
+            <div class="services-content">
+              <h2>Domestic Cleaning</h2>
+              <p>Realest Corp provides both regular and one-off home/office cleaning that ensures healthy environment</p>
+            <div>
+              <div class="learn-more">
+                <a href="">Learn More<svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                  <path fill-rule="evenodd" d="M4.72 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 010-1.06zm6 0a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                </svg></a>
+              </div>
+          </li>
+        </div>
+        <div class="col">
+          <li>
+            <div class="services-content">
+              <h2>Full-Time/Part-Time Nanny</h2>
+              <p>Realest Corp provides full time/Part time In-home Nannies as well as School/Facility Child caregivers who are knowledgeable and committed to giving professional childcare services</p>
+              <div>
+                <div class="learn-more">
+                  <a href="">Learn More<svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                  <path fill-rule="evenodd" d="M4.72 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 010-1.06zm6 0a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                </svg></a>
+                </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="process">
+      <span class="title">
+        <h2>Our Process</h2>
+        <div class="pr-ctn">
+          <img src="images/process.gif" alt="">
+          <span class="pr" id="pr-pr">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M501.6 4.186c-7.594-5.156-17.41-5.594-25.44-1.063L12.12 267.1C4.184 271.7-.5037 280.3 .0431 289.4c.5469 9.125 6.234 17.16 14.66 20.69l153.3 64.38v113.5c0 8.781 4.797 16.84 12.5 21.06C184.1 511 188 512 191.1 512c4.516 0 9.038-1.281 12.99-3.812l111.2-71.46l98.56 41.4c2.984 1.25 6.141 1.875 9.297 1.875c4.078 0 8.141-1.031 11.78-3.094c6.453-3.625 10.88-10.06 11.95-17.38l64-432C513.1 18.44 509.1 9.373 501.6 4.186zM369.3 119.2l-187.1 208.9L78.23 284.7L369.3 119.2zM215.1 444v-49.36l46.45 19.51L215.1 444zM404.8 421.9l-176.6-74.19l224.6-249.5L404.8 421.9z"/></svg>Choose a Service</h4>
+            <p>✔Immediately you contact us via the web forms, socials, chats or call. We listen to understand your exact needs then begin to proffer a tailor-fit solutions.</p>
+            <p>✔We carry out an INSPECTION on your property and it’s surrounding in order to identify the areas which the pest comes in from in the case of fumigation services and proffers a solution to you on how we plan to control it.</p>
+            </span>
+            <span class="pr" id="pr-qd">
+              <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M9 1.5H5.625c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5zm6.61 10.936a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 14.47a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                <path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z" />
+              </svg>Quality Deliveries</h4>
+              <p>✔Once you are happy with the solution/s, we conduct medical, security and other important checks to ensure the person is a good fit for you and your needs as in the case of a nanny/caregiver.</p>
+              <p>✔We will carry out a complete treatment for both the internal and external areas in order to ensure that the active pest already in are eradicated and also the prevention of pests coming from the external environment as this applies to fumigation services.</p>
+            </span>
+            <span class="pr" id="pr-on">
+              <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 00-1.032-.211 50.89 50.89 0 00-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 002.433 3.984L7.28 21.53A.75.75 0 016 21v-4.03a48.527 48.527 0 01-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979z" />
+                <path d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 001.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0015.75 7.5z" />
+              </svg>Ongoing Support</h4>
+              <p>✔We continue to give moral and emotional to you and our staffs by through our top-notch feedback system; taking your concerns seriously and giving our staff on-site and off-site training for the nannies/caregivers.</p>
+              <p>✔For the case of fumigation we also design a specialized maintenance program for your property which we come in to check your property every 3, 4, 5 or 6months depending on your decision In order to quickly spot if there are new signs of pest and stop them quickly before it becomes a menace and goes out of control.</p>
+            </span>
+          </span>
+        </div>
+      </span>
+    </section>
+    <div class="scroll-arrow"><a href="#nav"><img src="images/uparrow.svg" alt=""></a></div>
+    <div class="whatsapp-icon">
+      <img src="images/whatsapp.gif" alt=""><p>Chat Us</p>
+    </div>
+    <section class="contact" id="contact">
+      <h2>Our Contact</h2>
+      <span class="contact-content">
+        <span id="location">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>
+          <span id="location-content">
+            <div>
+              <h4>Head Office</h4>
+              <p>15, Isheri Road,<br>
+              Opposite Fidelity Bank,<br>
+              Ogba, Lagos,
+              Nigeria.</p>
+            </div>
+            <div>
+              <h4>Branch Office</h4>
+              <p>15, Okata Road,<br>
+                Opposite Market Square,<br>
+                Ogba, Lagos,
+                Nigeria.</p>
+              </div>
+          </span>
+        </span>
+        <span id="phone">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+          <span id="phone-content">
+            <p><span>Phone:</span> +2348044781275,+2341897385</p>
+            <p><span>Email:</span> RealestCorp@yahoo.com</p>
+          </span>                
+        </span>
+      </span>
+      <span class="contat">
+        <div class="location-ctn">
+          <span class="location-ctn-ctn">
+            <h4><svg style="width: 0.9375rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>Offices</h4>
+            <p>15, Isheri Road, Opposite Fidelity Bank, Ogba, Lagos, Nigeria</p>
+            <p>15, Okata Road, Opposite Market Square, Ogba, Lagos, Nogeria.</p>
+          </span>
+        </div>
+        <div class="phone-ctn">
+          <span class="phone-ctn-ctn">
+            <h4><svg style="width: 0.9375rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>Phone</h4>
+            <p><span>Phone:</span> +2348044781275,+2341897385</p>
+            <p><span>Email:</span> RealestCorp@yahoo.com</p>
+          </span>
+        </div>
+      </span>
+    </section>
+  </main>
+    <footer>
+      <section class="footer">
+        <span class="footer-content">
+          <span class="comment">
+            <label for="comment">Feedback:</label>
+            <textarea name="comment" id="comment" cols="20" rows="5">leave us your feedback here...</textarea>
+            <button>Send</button>
+          </span>
+          <span class="socials">
+            <h4>Follow Us@</h4>
+            <a href=""><img src="images/facebook.svg" alt=""></a>
+            <a href=""><img src="images/instagram.svg" alt=""></a>
+            <a href=""><img src="images/twitter.svg" alt=""></a>
+          </span>
+          <span class="address-contact">
+            <span class="offices">
+              <div>
+                <h4>Head Office</h4>
+                <p>15, Isheri Road,<br> Opposite Fidelity Bank,<br> Ogba, Lagos, Nigeria.</p>
+              </div>
+              <div>
+                <h4>Branch office</h4>
+                <p>15, Okata Road,<br> Opposite Market Square,<br> Ogba, Lagos, Nigeria.</p>
+              </div>
+            </span>
+            <div class="contact-address">
+              <h4>Contacts</h4>
+              <p><span>Phone:</span> +2348044781275,+2341897385</p>
+              <p><span>Email:</span> RealestCorp@yahoo.com</p>
+            </div>
+          </span>
+        </span>
+        <article>
+          <p>&copy Realest Corp International.<br>Designed By: Alozie Fimber</p>
+        </article>
+      </section>
+    </footer>
+    <script src="bootstrap.js"></script>
+</body>
+</html>

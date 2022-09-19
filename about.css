@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand&family=Raleway:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.about{
+    background: rgb;
+}
+.about-content{
+    background:rgba(255, 0, 0, 0.2);
+    padding: 1.5rem;
+    width: 75%;
+    height: auto;
+    margin: 1.875rem auto;
+    border-radius: 3.125rem;
+}
+/* .about-content:hover{
+    background: rgb(23,34,63);
+} */
+.about-content img{
+    width: 13rem;
+    height: fit-content;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+    
+}
+.about-content h4{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px blue;
+}
+
+#content-p{
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cont
+#content-p div{
+    text-align: justify;
+}
+#content-p div p{
+    font-family: "Raleway",sans-serif;
+    font-size: 15.5px;
+    position: relative;
+    left: 10px;
+}
+#content-p div p:hover{
+    color:rgb(255, 255, 255);
+}
+#second-p{
+    font-family: "Raleway", sans-serif;
+}
+#second-p:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+@media(max-width:48rem){
+    #content-p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-content img{
+        width: 92%;
+    }
+}
